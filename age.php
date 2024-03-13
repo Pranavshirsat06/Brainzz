@@ -1,0 +1,107 @@
+<?php
+session_start();
+include 'config.php';
+?>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+           integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+           crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Age Select</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>      
+
+<body> 
+
+<!--navbar start-->
+<!-- <nav class="navbar navbar-expand-custom navbar-mainbg2">
+    <a class="navbar-brand navbar-logo" href="index.html">
+      <img src="./images/brainzz_logo.jpeg" alt="C:\omkar\quiz-website">
+    </a>
+    
+</nav> -->
+<!--navbar end -->
+
+<!-- age group sec start -->
+<section id="age-group-sec">
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-12 mb-5">
+              <h2 class="main-head" style="text-align: center;">!! Select Your Age Group !!</h2>
+           </div>
+           <!-- Purple Table -->
+           <div class="col-md-4">
+              <div class="pricing-table purple" style="text-align: center;border-radius: 15px; border-bottom: 20px;">
+                 <!-- Table Head -->
+                 <div class="pricing-label"><h2>Age 3-6</h2></div>
+                 <h2>Preschoolers</h2>
+                 <!-- Features -->
+                 <div class="pricing-features">
+                    <div class="feature">Developing and Parenting Tips<span>00</span></div>
+                    <div class="feature">Development Period<span>00</span></div>
+                    <div class="feature">Growth and Transformation<span>00</span></div>
+                    <div class="feature">Unique ideologies<span>00</span></div>
+                 </div>
+                 <!-- Button -->
+                 <a class="price-button" href="select_exam.php">Get Started</a>
+              </div>
+           </div>
+           <!-- Turquoise Table -->
+           <div class="col-md-4">
+              <div class="pricing-table turquoise" style="text-align: center;border-radius: 15px;">
+                 <!-- Table Head -->
+                 <div class="pricing-label"><h2>Age 7-11</h2></div>
+                 <h2>Toodlerhoods</h2>
+                 <!-- Features -->
+                 <div class="pricing-features">
+                  <div class="feature">Developing and Parenting Tips<span>00</span></div>
+                  <div class="feature">Development Period<span>00</span></div>
+                  <div class="feature">Growth and Transformation<span>00</span></div>
+                  <div class="feature">Unique ideologies<span>00</span></div>
+               </div>
+                 <!-- Button -->
+                 <a class="price-button" href="select_exam.php">Get Started</a>
+              </div>
+           </div>
+           <!-- Red Table -->
+           <div class="col-md-4">
+              <div class="pricing-table red" style="text-align: center;border-radius: 15px;">
+                 <!-- Table Head -->
+                 <div class="pricing-label"><h2>Age 12-16</h2></div>
+                 <h2>Teenagers</h2>
+                 <!-- Features -->
+                 <div class="pricing-features">
+                  <div class="feature">Developing and Parenting Tips<span>00</span></div>
+                  <div class="feature">Development Period<span>00</span></div>
+                  <div class="feature">Growth and Transformation<span>00</span></div>
+                  <div class="feature">Unique ideologies<span>00</span></div>
+                 </div>
+                 <!-- Button -->
+                 <a class="price-button" href="select_exam.php">Get Started</a>
+              </div>
+           </div>
+        </div>
+     </div>
+ </section>
+  <!-- age group sec end -->
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
